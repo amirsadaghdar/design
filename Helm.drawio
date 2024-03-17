@@ -1,9 +1,57 @@
-<mxfile host="app.diagrams.net" modified="2024-03-17T21:29:32.859Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="24.0.7" etag="AX3JKlwW2VMovcPgKVPh" type="github">
+<mxfile host="app.diagrams.net" modified="2024-03-17T22:31:13.111Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="Y7sCer2hpCZ_J3mppkXw" version="24.0.7" type="github">
   <diagram name="Page-1" id="NzYTSZmlCHQrvUX4zyBL">
-    <mxGraphModel>
+    <mxGraphModel dx="989" dy="514" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-1" value="Dev Helm Repo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="90" y="123" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-2" value="Github Actions" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="273" y="123" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-3" value="Commit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.514;exitY=0;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="tVQHFspuN1o9Kc-MhsFj-8" target="tVQHFspuN1o9Kc-MhsFj-1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="270" y="183" as="sourcePoint" />
+            <mxPoint x="490" y="223" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-8" value="Developer" style="image;sketch=0;aspect=fixed;html=1;points=[];align=center;fontSize=12;image=img/lib/mscae/Person.svg;" vertex="1" parent="1">
+          <mxGeometry x="122" y="363" width="37" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-9" value="Commit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="tVQHFspuN1o9Kc-MhsFj-1" target="tVQHFspuN1o9Kc-MhsFj-2">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="204" y="373" as="sourcePoint" />
+            <mxPoint x="203" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-10" value="ArgoCD Repo" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="458" y="123" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-11" value="Commit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="tVQHFspuN1o9Kc-MhsFj-10">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="373" y="172.71" as="sourcePoint" />
+            <mxPoint x="456" y="172.71" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-12" value="ArgoCD" style="rounded=1;whiteSpace=wrap;html=1;absoluteArcSize=1;arcSize=14;strokeWidth=2;" vertex="1" parent="1">
+          <mxGeometry x="643" y="123" width="100" height="100" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-13" value="Commit" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" target="tVQHFspuN1o9Kc-MhsFj-12">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="558" y="172.71" as="sourcePoint" />
+            <mxPoint x="643" y="173" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-14" value="eks cluster" style="sketch=0;points=[[0,0,0],[0.25,0,0],[0.5,0,0],[0.75,0,0],[1,0,0],[0,1,0],[0.25,1,0],[0.5,1,0],[0.75,1,0],[1,1,0],[0,0.25,0],[0,0.5,0],[0,0.75,0],[1,0.25,0],[1,0.5,0],[1,0.75,0]];outlineConnect=0;fontColor=#232F3E;fillColor=#ED7100;strokeColor=#ffffff;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;fontSize=12;fontStyle=0;aspect=fixed;shape=mxgraph.aws4.resourceIcon;resIcon=mxgraph.aws4.eks;" vertex="1" parent="1">
+          <mxGeometry x="654" y="335" width="78" height="78" as="geometry" />
+        </mxCell>
+        <mxCell id="tVQHFspuN1o9Kc-MhsFj-15" value="Deploy" style="html=1;verticalAlign=bottom;endArrow=block;curved=0;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="tVQHFspuN1o9Kc-MhsFj-12" target="tVQHFspuN1o9Kc-MhsFj-14">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="151" y="373" as="sourcePoint" />
+            <mxPoint x="150" y="233" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
